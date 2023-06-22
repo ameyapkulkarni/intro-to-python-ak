@@ -87,7 +87,15 @@
 
 # 14. Slice the string with steps of 2, excluding the first and last characters of the string "WelcometoPython".
 
-string = "WelcometoPython"
-length = int(len(string))
-print(str(length))
-print(string[1:length:2])
+# string = "WelcometoPython"
+# length = int(len(string))
+# print(str(length))
+# print(string[1:length:2])
+
+
+#Test
+fullname = "Alan" + "Turing"
+length = len(fullname)
+middle_letter = fullname[int(length / 2)].lower()
+print(middle_letter)
+
